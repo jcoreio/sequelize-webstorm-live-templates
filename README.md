@@ -19,9 +19,9 @@ Creates an `export default class $MODEL_NAME$ extends Model` declaration.
 
 #### Variables
 
-##### `$MODEL_NAME$`: the name of the model class
-##### `$INIT_ATTRIBUTES$`: the flow types for attributes required at creation time
-##### `$ATTRIBUTES$`: the flow types for all other attributes
+* `$MODEL_NAME$`: the name of the model class
+* `$INIT_ATTRIBUTES$`: the flow types for attributes required at creation time
+* `$ATTRIBUTES$`: the flow types for all other attributes
 
 ## Associations
 
@@ -34,10 +34,10 @@ Make sure use the `sequelize-imports-bt` template at top level to import the nec
 
 #### Variables
 
-##### `$TARGET$`: the name of the association field
-##### `$SOURCE_MODEL$`: the source model identifier
-##### `$TARGET_MODEL$`: the target model identifier
-##### `$PRIMARY_KEY$`: the flow type of the target model's primary key
+* `$TARGET$`: the name of the association field
+* `$SOURCE_MODEL$`: the source model identifier
+* `$TARGET_MODEL$`: the target model identifier
+* `$PRIMARY_KEY$`: the flow type of the target model's primary key
 
 ### `sequelize-h1` (`HasOne` association field declaration)
 
@@ -46,10 +46,10 @@ Make sure use the `sequelize-imports-h1` template at top level to import the nec
 
 #### Variables
 
-##### `$TARGET$`: the name of the association field
-##### `$SOURCE_MODEL$`: the source model identifier
-##### `$TARGET_MODEL$`: the target model identifier
-##### `$PRIMARY_KEY$`: the flow type of the target model's primary key
+* `$TARGET$`: the name of the association field
+* `$SOURCE_MODEL$`: the source model identifier
+* `$TARGET_MODEL$`: the target model identifier
+* `$PRIMARY_KEY$`: the flow type of the target model's primary key
 
 ### `sequelize-hm` (`HasMany` association field declaration)
 
@@ -58,11 +58,11 @@ Make sure use the `sequelize-imports-hm` template at top level to import the nec
 
 #### Variables
 
-##### `$TARGET_SINGULAR$`: the singular name of the association field
-##### `$TARGET_PLURAL$`: the plural name of the association field
-##### `$SOURCE_MODEL$`: the source model identifier
-##### `$TARGET_MODEL$`: the target model identifier
-##### `$PRIMARY_KEY$`: the flow type of the target model's primary key
+* `$TARGET_SINGULAR$`: the singular name of the association field
+* `$TARGET_PLURAL$`: the plural name of the association field
+* `$SOURCE_MODEL$`: the source model identifier
+* `$TARGET_MODEL$`: the target model identifier
+* `$PRIMARY_KEY$`: the flow type of the target model's primary key
 
 ### `sequelize-btm` (`BelongsToMany` association field declaration)
 
@@ -71,10 +71,10 @@ Make sure use the `sequelize-imports-btm` template at top level to import the ne
 
 #### Variables
 
-##### `$TARGET_SINGULAR$`: the singular name of the association field
-##### `$TARGET_PLURAL$`: the plural name of the association field
-##### `$SOURCE_MODEL$`: the source model identifier
-##### `$TARGET_MODEL$`: the target model identifier
-##### `$THROUGH_MODEL$`: the through model identifier
-##### `$PRIMARY_KEY$`: the flow type of the target model's primary key
+* `$TARGET_SINGULAR$`: the singular name of the association field
+* `$TARGET_PLURAL$`: the plural name of the association field
+* `$SOURCE_MODEL$`: the source model identifier
+* `$TARGET_MODEL$`: the target model identifier
+* `$THROUGH_MODEL$`: the through model identifier
+* `$PRIMARY_KEY$`: the flow type of the target model's primary key
 
