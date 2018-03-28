@@ -1,0 +1,71 @@
+<template name="sequelize-bt" value="static $TARGET$: Association.BelongsTo&lt;$SOURCE_MODEL$, $TARGET_MODEL$Attributes, $TARGET_MODEL$InitAttributes, $TARGET_MODEL$&gt; = (null: any)&#10;&#10;get$TARGET$: BelongsToGetOne&lt;$TARGET_MODEL$&gt;;&#10;set$TARGET$: BelongsToSetOne&lt;$TARGET_MODEL$, $PRIMARY_KEY$&gt;;&#10;create$TARGET$: BelongsToCreateOne&lt;$TARGET_MODEL$InitAttributes&gt;;" description="belongsTo method annotations" toReformat="true" toShortenFQNames="true">
+  <variable name="TARGET" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="SOURCE_MODEL" expression="jsClassName()" defaultValue="" alwaysStopAt="false" />
+  <variable name="TARGET_MODEL" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="PRIMARY_KEY" expression="&quot;number&quot;" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="JAVA_SCRIPT" value="true" />
+    <option name="JSX_HTML" value="false" />
+  </context>
+</template>
+<template name="sequelize-btm" value="static $TARGET_PLURAL$: Association.BelongsToMany&lt;&#10;  $SOURCE_MODEL$Attributes,&#10;  $SOURCE_MODEL$InitAttributes,&#10;  $SOURCE_MODEL$,&#10;  $TARGET_MODEL$Attributes,&#10;  $TARGET_MODEL$InitAttributes,&#10;  $TARGET_MODEL$,&#10;  $THROUGH_MODEL$Attributes,&#10;  $THROUGH_MODEL$&#10;&gt; = (null: any)&#10;&#10;get$TARGET_PLURAL$: BelongsToManyGetMany&lt;$TARGET_MODEL$&gt;;&#10;set$TARGET_PLURAL$: BelongsToManySetMany&lt;$TARGET_MODEL$, $PRIMARY_KEY$, $THROUGH_MODEL$InitAttributes&gt;;&#10;add$TARGET_PLURAL$: BelongsToManyAddMany&lt;$TARGET_MODEL$, $PRIMARY_KEY$, $THROUGH_MODEL$InitAttributes&gt;;&#10;add$TARGET_SINGULAR$: BelongsToManyAddOne&lt;$TARGET_MODEL$, $PRIMARY_KEY$, $THROUGH_MODEL$InitAttributes&gt;;&#10;create$TARGET_SINGULAR$: BelongsToManyCreateOne&lt;$TARGET_MODEL$InitAttributes, $TARGET_MODEL$, $THROUGH_MODEL$InitAttributes&gt;;&#10;remove$TARGET_SINGULAR$: BelongsToManyRemoveOne&lt;$TARGET_MODEL$, $PRIMARY_KEY$&gt;;&#10;remove$TARGET_PLURAL$: BelongsToManyRemoveMany&lt;$TARGET_MODEL$, $PRIMARY_KEY$&gt;;&#10;has$TARGET_SINGULAR$: BelongsToManyHasOne&lt;$TARGET_MODEL$, $PRIMARY_KEY$&gt;;&#10;has$TARGET_PLURAL$: BelongsToManyHasMany&lt;$TARGET_MODEL$, $PRIMARY_KEY$&gt;;&#10;count$TARGET_PLURAL$: BelongsToManyCount;" description="belongsToMany method declarations" toReformat="true" toShortenFQNames="true">
+  <variable name="SOURCE_MODEL" expression="jsClassName()" defaultValue="" alwaysStopAt="false" />
+  <variable name="TARGET_PLURAL" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="THROUGH_MODEL" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="TARGET_MODEL" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="PRIMARY_KEY" expression="&quot;number&quot;" defaultValue="" alwaysStopAt="true" />
+  <variable name="TARGET_SINGULAR" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="JAVA_SCRIPT" value="true" />
+    <option name="JSX_HTML" value="false" />
+  </context>
+</template>
+<template name="sequelize-h1" value="static $TARGET$: Association.HasOne&lt;$SOURCE_MODEL$, $TARGET_MODEL$Attributes, $TARGET_MODEL$InitAttributes, $TARGET_MODEL$&gt; = (null: any)&#10;&#10;get$TARGET$: HasOneGetOne&lt;$TARGET_MODEL$&gt;;&#10;set$TARGET$: HasOneSetOne&lt;$TARGET_MODEL$, $PRIMARY_KEY$&gt;;&#10;create$TARGET$: HasOneCreateOne&lt;$TARGET_MODEL$InitAttributes&gt;;" description="hasOne method annotations" toReformat="true" toShortenFQNames="true">
+  <variable name="TARGET" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="SOURCE_MODEL" expression="jsClassName()" defaultValue="" alwaysStopAt="false" />
+  <variable name="TARGET_MODEL" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="PRIMARY_KEY" expression="&quot;number&quot;" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="JAVA_SCRIPT" value="true" />
+    <option name="JSX_HTML" value="false" />
+  </context>
+</template>
+<template name="sequelize-hm" value="static $TARGET_PLURAL$: Association.HasMany&lt;$SOURCE_MODEL$, $TARGET_MODEL$Attributes, $TARGET_MODEL$InitAttributes, $TARGET_MODEL$&gt; = (null: any)&#10;&#10;get$TARGET_PLURAL$: HasManyGetMany&lt;$TARGET_MODEL$&gt;;&#10;set$TARGET_PLURAL$: HasManySetMany&lt;$TARGET_MODEL$, $PRIMARY_KEY$&gt;;&#10;add$TARGET_PLURAL$: HasManyAddMany&lt;$TARGET_MODEL$, $PRIMARY_KEY$&gt;;&#10;add$TARGET_SINGULAR$: HasManyAddOne&lt;$TARGET_MODEL$, $PRIMARY_KEY$&gt;;&#10;create$TARGET_SINGULAR$: HasManyCreateOne&lt;$TARGET_MODEL$InitAttributes, $TARGET_MODEL$&gt;;&#10;remove$TARGET_SINGULAR$: HasManyRemoveOne&lt;$TARGET_MODEL$, $PRIMARY_KEY$&gt;;&#10;remove$TARGET_PLURAL$: HasManyRemoveMany&lt;$TARGET_MODEL$, $PRIMARY_KEY$&gt;;&#10;has$TARGET_SINGULAR$: HasManyHasOne&lt;$TARGET_MODEL$, $PRIMARY_KEY$&gt;;&#10;has$TARGET_PLURAL$: HasManyHasMany&lt;$TARGET_MODEL$, $PRIMARY_KEY$&gt;;&#10;count$TARGET_PLURAL$: HasManyCount;" description="hasMany method annotations" toReformat="true" toShortenFQNames="true">
+  <variable name="TARGET_PLURAL" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="SOURCE_MODEL" expression="jsClassName()" defaultValue="" alwaysStopAt="false" />
+  <variable name="TARGET_MODEL" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="PRIMARY_KEY" expression="&quot;number&quot;" defaultValue="" alwaysStopAt="true" />
+  <variable name="TARGET_SINGULAR" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="JAVA_SCRIPT" value="true" />
+    <option name="JSX_HTML" value="false" />
+  </context>
+</template>
+<template name="sequelize-imports-bt" value="import type {BelongsToGetOne, BelongsToSetOne, BelongsToCreateOne} from 'sequelize'&#10;" description="belongsTo method type imports" toReformat="false" toShortenFQNames="true">
+  <context>
+    <option name="JAVA_SCRIPT" value="true" />
+  </context>
+</template>
+<template name="sequelize-imports-btm" value="import type {&#10;  BelongsToManyGetMany,&#10;  BelongsToManySetMany,&#10;  BelongsToManyAddMany,&#10;  BelongsToManyAddOne,&#10;  BelongsToManyCreateOne,&#10;  BelongsToManyRemoveOne,&#10;  BelongsToManyRemoveMany,&#10;  BelongsToManyHasOne,&#10;  BelongsToManyHasMany,&#10;  BelongsToManyCount,&#10;} from 'sequelize'&#10;" description="belongsToMany method type imports" toReformat="false" toShortenFQNames="true">
+  <context>
+    <option name="JAVA_SCRIPT" value="true" />
+  </context>
+</template>
+<template name="sequelize-imports-h1" value="import type {HasOneGetOne, HasOneSetOne, HasOneCreateOne} from 'sequelize'&#10;" description="hasOne method type imports" toReformat="false" toShortenFQNames="true">
+  <context>
+    <option name="JAVA_SCRIPT" value="true" />
+  </context>
+</template>
+<template name="sequelize-imports-hm" value="import type {&#10;  HasManyGetMany,&#10;  HasManySetMany,&#10;  HasManyAddMany,&#10;  HasManyAddOne,&#10;  HasManyCreateOne,&#10;  HasManyRemoveOne,&#10;  HasManyRemoveMany,&#10;  HasManyHasOne,&#10;  HasManyHasMany,&#10;  HasManyCount,&#10;} from 'sequelize'&#10;" description="hasMany method type imports" toReformat="false" toShortenFQNames="true">
+  <context>
+    <option name="JAVA_SCRIPT" value="true" />
+  </context>
+</template>
+<template name="sequelize-model" value="// @flow&#10;&#10;import Sequelize, {Model} from 'sequelize'&#10;&#10;export type $MODEL_NAME$InitAttributes = {&#10;  $INIT_ATTRIBUTES$&#10;}&#10;&#10;export type $MODEL_NAME$Attributes = $MODEL_NAME$InitAttributes &amp; {&#10;  id: number;&#10;  createdAt: Date;&#10;  updatedAt: Date;&#10;  $ATTRIBUTES$&#10;}&#10;&#10;export default class $MODEL_NAME$ extends Model&lt;$MODEL_NAME$Attributes, $MODEL_NAME$InitAttributes&gt; {&#10;  $INIT_ATTRIBUTES$&#10;  id: number;&#10;  createdAt: Date;&#10;  updatedAt: Date;&#10;  $ATTRIBUTES$&#10;  &#10;  static initAttributes({sequelize}: {sequelize: Sequelize}) {&#10;    super.init({&#10;      $END$&#10;    }, {sequelize})&#10;  }&#10;  &#10;  static initAssociations() {&#10;  }&#10;}&#10;" description="sequelize model" toReformat="false" toShortenFQNames="true">
+  <variable name="MODEL_NAME" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="false" />
+  <variable name="INIT_ATTRIBUTES" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="ATTRIBUTES" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="JAVA_SCRIPT" value="true" />
+  </context>
+</template>
